@@ -18,7 +18,7 @@ namespace The_Firm_v2.Model
         // Constructor for TechnicianCheif
         internal ProjectCreator(string firstName, string lastName, string cpr, string phoneNumber, string email, bool getsFixedSalary, bool decideOrderO) : base(firstName, lastName, cpr, phoneNumber, email, true, true)
         {
-            this.decideOrderOperation = decideOrderOperation; // Assign the provided value to DecidesFocus
+            this.decideOrderOperation = decideOrderOperation; // Assign the provided value to decideOrderOperation
         }
 
         public override string ToString()
