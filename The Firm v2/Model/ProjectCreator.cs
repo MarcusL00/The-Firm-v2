@@ -8,14 +8,15 @@ namespace The_Firm_v2.Model
 {
     internal class ProjectCreator : Technician
     {
-        protected bool decideOrderOperation
+        private bool decideOrderOperation;
+        protected bool DecideOrderOperation
         {
             get => decideOrderOperation;
-            set => decideOrderOperation = true;
+            set => decideOrderOperation = value;
         }
 
         // Constructor for TechnicianCheif
-        internal ProjectCreator(string firstName, string lastName, string cpr, string phoneNumber, string email, bool getsFixedSalary, bool decidesFocus) : base(firstName, lastName, cpr, phoneNumber, email, true)
+        internal ProjectCreator(string firstName, string lastName, string cpr, string phoneNumber, string email, bool getsFixedSalary, bool decideOrderO) : base(firstName, lastName, cpr, phoneNumber, email, true, true)
         {
             this.decideOrderOperation = decideOrderOperation; // Assign the provided value to DecidesFocus
         }

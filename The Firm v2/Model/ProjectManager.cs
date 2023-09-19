@@ -14,7 +14,7 @@ namespace The_Firm_v2.Model
             get => email;
             set => email = value;
         }
-        internal ProjectManager(string firstName, string lastName, string cpr, string phoneNumber, string email) : base(firstName, lastName, cpr, phoneNumber, email, true)
+        internal ProjectManager(string firstName, string lastName, string cpr, string phoneNumber, string email) : base(firstName, lastName, cpr, phoneNumber, email, true, true)
         {
             FirstName = firstName;
             LastName = lastName;

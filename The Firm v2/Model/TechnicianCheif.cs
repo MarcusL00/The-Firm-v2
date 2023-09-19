@@ -17,7 +17,7 @@ namespace The_Firm_v2.Model
         }
 
         // Constructor for TechnicianCheif
-        internal TechnicianCheif(string firstName, string lastName, string cpr, string phoneNumber, string email, bool getsFixedSalary, bool decidesFocus) : base(firstName, lastName, cpr, phoneNumber, email, getsFixedSalary)
+        internal TechnicianCheif(string firstName, string lastName, string cpr, string phoneNumber, string email, bool getsFixedSalary, bool decidesFocus) : base(firstName, lastName, cpr, phoneNumber, email, true, true)
         {
             this.decidesFocus = decidesFocus; // Assign the provided value to DecidesFocus
         }
